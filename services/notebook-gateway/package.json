@@ -6,7 +6,7 @@
   "description": "Authenticated websocket bridge between the browser notebook editor and per-session Jupyter kernels.",
   "main": "index.mjs",
   "scripts": {
-    "start": "node index.mjs"
+    "start": "node init && node index.mjs"
   },
   "dependencies": {
     "ws": "^8.18.0"

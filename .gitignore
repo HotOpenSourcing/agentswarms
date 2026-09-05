@@ -2,8 +2,6 @@
 /node_modules
 
 # env
-.env
-.env.local
 .env.*.local
 
 # build output
@@ -70,3 +68,4 @@ deploy/notebooks/egress/allowed_ips
 
 # local backups from `npm run backup`
 backups/
+config.bat

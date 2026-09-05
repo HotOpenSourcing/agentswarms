@@ -1,7 +1,7 @@
 {
   "name": "@agentswarms/react",
   "version": "0.1.0",
-  "description": "React SDK for AgentSwarms embeds — headless hooks and a drop-in chat component over the same public embed API the iframes use.",
+  "description": "React SDK for AgentSwarms embeds \u2014 headless hooks and a drop-in chat component over the same public embed API the iframes use.",
   "license": "Elastic-2.0",
   "type": "module",
   "main": "./dist/index.js",
@@ -20,7 +20,7 @@
   ],
   "sideEffects": false,
   "scripts": {
-    "build": "tsc -p tsconfig.json",
+    "build": "node init && tsc -p tsconfig.json",
     "prepublishOnly": "npm run build"
   },
   "peerDependencies": {

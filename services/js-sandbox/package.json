@@ -6,7 +6,7 @@
   "description": "Hardened server-side execution of user-authored Function/component node code for headless swarm runs.",
   "main": "server.mjs",
   "scripts": {
-    "start": "node server.mjs"
+    "start": "node init && node server.mjs"
   },
   "engines": {
     "node": ">=20"
